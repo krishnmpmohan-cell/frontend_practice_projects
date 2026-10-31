@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .page{width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 0 50px;
+        }
+        form{
+            width: 400px;
+            background-color:whitesmoke;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .email{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .btn{
+            width: 100%;
+            padding: 10px;
+            background-color: #1877f2;
+            color: white;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <form>
+        <h1>Instagram</h1>
+        <br>
+        <input type="email" class="email" placeholder="Email or Phone Number or username" required>
+        <br><br>
+        <input type="password" class="email" placeholder=" Enter Password" required>
+        <br><br>
+        <button type="submit" class="btn">Log In</button>
+        <br>
+        <a href="#"><p>forgot password?</p></a>
+        <br>
+        <a href="#"><p>login with facebook</p></a>
+        </form>
+    </div>
+</body>
+</html>

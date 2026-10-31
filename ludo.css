@@ -1,0 +1,181 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.ludo{
+    width: 100%;
+    height: 90vh;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*for sections of ludo*/
+.sec1{
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.sec2{
+    width: 80%;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    
+}
+.sec3{
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    
+}
+/*for boxes of section 1 */
+/*yellow box*/
+.box1a{
+    width:40%;
+    height: 100%;
+    background-color:yellow;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.yellw{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}.yellowgoti{width:80%;
+    height: 80%;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    }
+    .y1{border: 2px solid black;border-radius: 100%; height:40px;width:40px;background-color: rgb(227, 247, 9);position:relative;left:10px;bottom:25px;}
+    .y2{border: 2px solid black;border-radius: 100%; height:40px;width:40px;background-color: rgb(227, 247, 9);position:relative;left:50px;bottom:25px;}
+    .y3{border: 2px solid black;border-radius: 100%; height:40px;width:40px;background-color: rgb(227, 247, 9);position:relative;right:73px;top:25px;}
+    .y4{border: 2px solid black;border-radius: 100%; height:40px;width:40px;background-color: rgb(227, 247, 9);position:relative;right:30px;top:25px;}
+    /*middle boxes*/
+    .box1b{
+    width:20%;
+    height: 100%;
+    background-color:rgb(237, 234, 232);
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.div-line1{width:0;height:100%;border:2px solid black;padding-left: 35px;}
+
+    /*green box*/
+    .box1c{
+    width:40%;
+    height: 100%;
+    background-color:green;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.green{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}.greengoti{width:80%;
+    height: 80%;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    }
+    .g1{border: 2px solid black;border-radius: 100%; height:40px;width:40px;background-color: green;position:relative;left:10px;bottom:25px;}
+    .g2{border: 2px solid black;border-radius: 100%; height:40px;width:40px;background-color: green;position:relative;left:50px;bottom:25px;}
+    .g3{border: 2px solid black;border-radius: 100%; height:40px;width:40px;background-color: green;position:relative;right:73px;top:25px;}
+    .g4{border: 2px solid black;border-radius: 100%; height:40px;width:40px;background-color: green;position:relative;right:30px;top:25px;}
+    /*red box*/
+     .box3a{
+    width:40%;
+    height: 100%;
+    background-color:rgb(243, 16, 46);
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.red{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}.redgoti{width:80%;
+    height: 80%;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    }
+    .r1{border: 2px solid black;border-radius: 100%; height:40px;width:40px;background-color: rgb(213, 9, 40);position:relative;left:10px;bottom:25px;}
+    .r2{border: 2px solid black;border-radius: 100%; height:40px;width:40px;background-color: rgb(228, 24, 45);position:relative;left:50px;bottom:25px;}
+    .r3{border: 2px solid black;border-radius: 100%; height:40px;width:40px;background-color: rgb(212, 13, 13);position:relative;right:73px;top:25px;}
+    .r4{border: 2px solid black;border-radius: 100%; height:40px;width:40px;background-color: rgb(219, 16, 26);position:relative;right:30px;top:25px;}
+    /* middle box*/
+    .box3b{
+    width:20%;
+    height: 100%;
+    background-color:rgb(237, 234, 232);
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.div-line1{width:0;height:100%;border:2px solid black;padding-left: 35px;}
+/* blue box*/
+ .box3c{
+    width:40%;
+    height: 100%;
+    background-color:rgb(37, 16, 196);
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.blue{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}.bluegoti{width:80%;
+    height: 80%;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    }
+    .b1{border: 2px solid black;border-radius: 100%; height:40px;width:40px;background-color: rgb(60, 16, 183);position:relative;left:10px;bottom:25px;}
+    .b2{border: 2px solid black;border-radius: 100%; height:40px;width:40px;background-color: rgb(45, 11, 215);position:relative;left:50px;bottom:25px;}
+    .b3{border: 2px solid black;border-radius: 100%; height:40px;width:40px;background-color: rgb(13, 26, 207);position:relative;right:73px;top:25px;}
+    .b4{border: 2px solid black;border-radius: 100%; height:40px;width:40px;background-color: rgb(9, 9, 176);position:relative;right:30px;top:25px;}
+    /*here is the starting of section no 2*/
+    .box2b{width: 16vh;}
+    .box2a{border: 2px solid black;width:40%;height: 16vh;}
+    .box2c{border: 2px solid black;width:40%;height: 16vh;}
+    .sec2-line1{border: 2px solid black;width: 100%;height: 35%;margin-top: 33px;}
+    .sec2-line2{border: 2px solid black;width: 100%;height: 35%;margin-top: 33px;}
+    /*section 2 ka running boxes*/
+    .sam1{border: 2px solid black;width:40px;height:100%;position:relative;left: 170px;}
+    .sam2{border: 2px solid black;width:100%;height:40px;position:relative;bottom: 74px;background-color: red;display: flex;justify-content: center;align-items: center;}
+    .sam3{border: 2px solid black;width:40px;height:100%;position:relative;bottom:152px;background-color: rgb(237, 245, 248);}
+    .red-in{border: 2px solid black;width:0;height:100%;}

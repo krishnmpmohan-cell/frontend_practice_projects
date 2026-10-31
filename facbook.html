@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .page{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            padding: 0 50px;
+        }
+        .left{
+            width: 50%;
+        }
+        
+
+        .left h1{
+            font-size: 60px;
+            color: #1877f2;
+        }
+        .left p{
+            font-size: 20px;
+        }
+        .right{
+            width: 40%;
+            background-color:whitesmoke;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .email{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .btn1{
+            width: 100%;
+            padding: 10px;
+            background-color: #1877f2;
+            color: white;
+            border-radius: 5px;
+            border: none;
+        
+        }
+        .btn2{
+            width: 100%;
+            padding: 10px;
+            background-color: #4caf50;
+            color: white;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="left">
+         <h1>Facebook</h1>
+         <p>connect with friends and the world <br>around you on facebook</p>
+        </div>
+        <div class="right">
+<form>
+    <input type="email" class="email" placeholder="Email or Phone Number" required><br>
+    <input type="password" class="email" placeholder=" Enter Password" required><br>
+    <br><button type="submit" class="btn1">Log In</button>
+    <br>
+    <a href="#" id="fpass">Forgotten password?</a>
+    <br><br>
+    <button class="btn2">create new account</button>
+</form>
+        </div>
+    </div>
+</body>
+</html>
